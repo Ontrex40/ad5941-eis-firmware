@@ -1,0 +1,25 @@
+# Keil uVision build output and per-user state
+OUT/
+Objects/
+Listings/
+*.uvguix*
+*.uvoptx
+*.build_log.htm
+*.crf
+*.d
+*.o
+*.axf
+*.lnp
+*.map
+*.bak
+*.scvd
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Measurement captures are data, not source (keep them out of the firmware repo)
+*.xlsx
+*.csv
